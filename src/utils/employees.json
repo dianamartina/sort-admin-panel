@@ -1,0 +1,8 @@
+{"employees":[
+    {"firstName":"Mihai Radu", "lastName":"Ionescu Ieremia", "job":"Frontend Dev", "salary":"1500", "date":"2014-03-05"}, 
+    {"firstName":"Andreea Cristina", "lastName":"Stan", "job":"Backend Dev", "salary":"1000", "date":"2015-05-08"},
+    {"firstName":"Ioan", "lastName":"Pop", "job":"Senior Frontend Dev", "salary":"2700", "date":"2016-03-04"},
+    {"firstName":"Maria Ileana", "lastName":"Ionescu", "job":"DevOps Engineer", "salary":"3500", "date":"2017-03-05"},
+    {"firstName":"Ana", "lastName":"Popescu", "job":"QA", "salary":"4000", "date":"2019-07-20"}, 
+    {"firstName":"Gabriel", "lastName":"Popescu Mihai", "job":"Senior Backend Dev", "salary":"6000", "date":"2020-07-17"}
+ ]}

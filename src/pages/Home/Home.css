@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px solid #979a9c;
+  border-radius: 4px;
+  padding: 15px;
+  width: 280px;
+}
+
+.add-input-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  width: 100%;
+}

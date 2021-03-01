@@ -1,0 +1,103 @@
+.employees-forms {
+  width: 100%;
+}
+
+.forms-filters {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.form-filter {
+  border: 1px solid #979a9c;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.employees-list {
+  background-color: white;
+  border: 1px solid #979a9c;
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.employee-row {
+  margin: 1rem 0;
+}
+
+.employee-row:not(:last-child) {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding-bottom: 10px;
+}
+
+.header-list {
+  font-weight: bold;
+}
+
+.employee-item {
+  width: 25%;
+  margin-right: 1.5rem;
+}
+
+.employee-item-salary {
+  width: 70px;
+  margin-right: 1.5rem;
+}
+
+.employee-item-date {
+  width: 100px;
+}
+
+@media (max-width: 992px) {
+  .employees-forms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .forms-filters {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .forms-filters-no-btn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-filter {
+    margin-right: 15px;
+  }
+
+  .employees-list {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .employees-forms {
+    font-size: 0.95rem;
+  }
+  .employee-item,
+  .employee-item-salary {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .employees-forms {
+    font-size: 12px;
+  }
+  .forms-filters-no-btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .employee-item,
+  .employee-item-salary {
+    margin-right: 0.7rem;
+  }
+}
